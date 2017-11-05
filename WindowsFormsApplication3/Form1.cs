@@ -35,6 +35,10 @@ namespace WindowsFormsApplication3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //This works too
+            //var nls = new ListOfStuff { intProperty = 2, stringProperty = "two" }; 
+            //comboBox1.SelectedValue = nls.intProperty;
+
             comboBox1.SelectedValue = 1;
         }
     }
